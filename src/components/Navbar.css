@@ -1,0 +1,22 @@
+
+.navbar{
+    display: flex;
+}
+/* h2{
+display:inline-block;
+color: white;
+
+} */
+ul {
+    margin-left: auto;
+    list-style: none;
+    display: flex; 
+  
+}
+
+li {
+    margin: 12px;
+    color: white;
+    cursor: pointer;
+}
+
