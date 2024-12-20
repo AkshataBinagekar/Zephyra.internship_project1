@@ -1,0 +1,109 @@
+.settings{
+    display: flex;
+    gap:18px ;
+  
+    
+}
+
+.setting_page{
+    flex: 1;
+    border: 2px solid #FFFFFF33;
+    height: 500px;
+    width: 346px;
+  border-radius: 15px;
+  margin-left: 72px;
+  background-color: #FFFFFF33;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ margin-top: 25px;
+}
+.sidebar ul{
+    display: block;
+}
+li{
+    color: white;  
+}
+.setting_nav{
+color: white;
+text-decoration: none;
+list-style: none;
+}
+.setting_nav:hover{
+  
+    border-bottom: 3px solid #07D2FF;
+}
+.details{
+    flex: 3;
+
+    height: 150px;
+    background-color: linear-gradient(90deg, rgba(18, 4, 88, 0.29) 0%, rgba(122, 4, 235, 0.28) 29.99%, rgba(126, 117, 254, 0.19) 69.82%, rgba(57, 63, 95, 0.27) 100%);
+    ;
+    border:  2px solid #FFFFFF33;
+    margin: 20px;
+ border-radius: 10px 10px 0px 0px;
+  
+}
+.display{
+    display: flex;
+    margin-top: 90px;
+    margin-left: 90px;
+    gap: 20px;
+}
+
+.user{
+   border-radius: 50%;
+}
+.basic_info{
+ border: 1px solid #B6C0DE;
+ background-color: #B6C0DE;
+ width: 560px;
+ height: 71px;
+ border-radius: 34px;
+margin-top: 20px;
+
+
+
+}
+.info{
+    color: black;
+  font-size: 48px;
+  font-family: 'Kode Mono', monospace;
+  font-weight: 100;
+  font-style: normal;
+line-height: 61.44px;
+
+
+}
+.user_detail{
+    display: flex;
+  
+}
+.label{
+    margin-left: 100px;
+    margin-top: 30px;
+    color: white;
+
+}
+.label_name{
+    margin-bottom: 25px;
+}
+.input{
+    margin-top: 30px;
+}
+.text{
+    display: block;
+   margin-bottom: 10px;
+   border: none;
+   margin-bottom: 30px;
+   margin-left: 130px;
+
+}
+input::placeholder{
+    color: white;
+}
+
+ 

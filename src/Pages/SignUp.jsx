@@ -1,7 +1,7 @@
 import React from 'react'
-import './SignUp.css'
+import './Signup.css'
 import Navbar from '../components/Navbar'
-function SignUp() {
+function Signup() {
   return (
     <div>
     <Navbar />
@@ -27,4 +27,4 @@ function SignUp() {
   )
 }
 
-export default SignUp
+export default Signup

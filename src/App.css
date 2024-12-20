@@ -1,21 +1,36 @@
-*{
+
+ * {
   margin: 0;
   padding: 0;
- 
+  box-sizing: border-box;
 }
-/* body{
 
-  background: linear-gradient(135deg, #0D1B2A, #1C1C3C, #121212);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height:585px;
-} */
- body{
-  background-image: url('./Images/WhatsApp\ Image\ 2024-11-09\ at\ 1.14.08\ PM.jpeg');
+body {
+  background-image: url('./Images/WhatsApp Image 2024-11-09 at 1.14.08 PM.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height:585px;
- 
-  filter:  saturate(0.9);
- }
+  height: auto; 
+  width: 100%;
+  filter: saturate(0.9);
+  font-family: 'Arial', sans-serif; 
+  overflow-x: hidden; 
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-position: top; 
+    background-size: auto 100%; 
+    height:auto; 
+   
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-position: top;
+    background-size: cover; 
+    height: auto; 
+  }
+}
